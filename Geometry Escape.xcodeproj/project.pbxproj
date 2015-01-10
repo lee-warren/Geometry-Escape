@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF1533D1A60C058004E2087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1533C1A60C058004E2087 /* main.m */; };
+		DBF153401A60C058004E2087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1533F1A60C058004E2087 /* AppDelegate.m */; };
+		DBF153431A60C058004E2087 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF153421A60C058004E2087 /* GameScene.m */; };
+		DBF153451A60C058004E2087 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DBF153441A60C058004E2087 /* GameScene.sks */; };
+		DBF153481A60C058004E2087 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF153471A60C058004E2087 /* GameViewController.m */; };
+		DBF1534B1A60C058004E2087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF153491A60C058004E2087 /* Main.storyboard */; };
+		DBF1534D1A60C058004E2087 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF1534C1A60C058004E2087 /* Images.xcassets */; };
+		DBF153501A60C058004E2087 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF1534E1A60C058004E2087 /* LaunchScreen.xib */; };
+		DBF1535C1A60C058004E2087 /* Geometry_EscapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1535B1A60C058004E2087 /* Geometry_EscapeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF153561A60C058004E2087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF1532F1A60C058004E2087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF153361A60C058004E2087;
+			remoteInfo = "Geometry Escape";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBF153371A60C058004E2087 /* Geometry Escape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geometry Escape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF1533B1A60C058004E2087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF1533C1A60C058004E2087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF1533E1A60C058004E2087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBF1533F1A60C058004E2087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBF153411A60C058004E2087 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DBF153421A60C058004E2087 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DBF153441A60C058004E2087 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DBF153461A60C058004E2087 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DBF153471A60C058004E2087 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DBF1534A1A60C058004E2087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF1534C1A60C058004E2087 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBF1534F1A60C058004E2087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DBF153551A60C058004E2087 /* Geometry EscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geometry EscapeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF1535A1A60C058004E2087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF1535B1A60C058004E2087 /* Geometry_EscapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Geometry_EscapeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF153341A60C058004E2087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF153521A60C058004E2087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF1532E1A60C058004E2087 = {
+			isa = PBXGroup;
+			children = (
+				DBF153391A60C058004E2087 /* Geometry Escape */,
+				DBF153581A60C058004E2087 /* Geometry EscapeTests */,
+				DBF153381A60C058004E2087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF153381A60C058004E2087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF153371A60C058004E2087 /* Geometry Escape.app */,
+				DBF153551A60C058004E2087 /* Geometry EscapeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF153391A60C058004E2087 /* Geometry Escape */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1533E1A60C058004E2087 /* AppDelegate.h */,
+				DBF1533F1A60C058004E2087 /* AppDelegate.m */,
+				DBF153411A60C058004E2087 /* GameScene.h */,
+				DBF153421A60C058004E2087 /* GameScene.m */,
+				DBF153441A60C058004E2087 /* GameScene.sks */,
+				DBF153461A60C058004E2087 /* GameViewController.h */,
+				DBF153471A60C058004E2087 /* GameViewController.m */,
+				DBF153491A60C058004E2087 /* Main.storyboard */,
+				DBF1534C1A60C058004E2087 /* Images.xcassets */,
+				DBF1534E1A60C058004E2087 /* LaunchScreen.xib */,
+				DBF1533A1A60C058004E2087 /* Supporting Files */,
+			);
+			path = "Geometry Escape";
+			sourceTree = "<group>";
+		};
+		DBF1533A1A60C058004E2087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1533B1A60C058004E2087 /* Info.plist */,
+				DBF1533C1A60C058004E2087 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF153581A60C058004E2087 /* Geometry EscapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1535B1A60C058004E2087 /* Geometry_EscapeTests.m */,
+				DBF153591A60C058004E2087 /* Supporting Files */,
+			);
+			path = "Geometry EscapeTests";
+			sourceTree = "<group>";
+		};
+		DBF153591A60C058004E2087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1535A1A60C058004E2087 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF153361A60C058004E2087 /* Geometry Escape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF1535F1A60C058004E2087 /* Build configuration list for PBXNativeTarget "Geometry Escape" */;
+			buildPhases = (
+				DBF153331A60C058004E2087 /* Sources */,
+				DBF153341A60C058004E2087 /* Frameworks */,
+				DBF153351A60C058004E2087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geometry Escape";
+			productName = "Geometry Escape";
+			productReference = DBF153371A60C058004E2087 /* Geometry Escape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF153541A60C058004E2087 /* Geometry EscapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF153621A60C058004E2087 /* Build configuration list for PBXNativeTarget "Geometry EscapeTests" */;
+			buildPhases = (
+				DBF153511A60C058004E2087 /* Sources */,
+				DBF153521A60C058004E2087 /* Frameworks */,
+				DBF153531A60C058004E2087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF153571A60C058004E2087 /* PBXTargetDependency */,
+			);
+			name = "Geometry EscapeTests";
+			productName = "Geometry EscapeTests";
+			productReference = DBF153551A60C058004E2087 /* Geometry EscapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF1532F1A60C058004E2087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lee Warren";
+				TargetAttributes = {
+					DBF153361A60C058004E2087 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DBF153541A60C058004E2087 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DBF153361A60C058004E2087;
+					};
+				};
+			};
+			buildConfigurationList = DBF153321A60C058004E2087 /* Build configuration list for PBXProject "Geometry Escape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF1532E1A60C058004E2087;
+			productRefGroup = DBF153381A60C058004E2087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF153361A60C058004E2087 /* Geometry Escape */,
+				DBF153541A60C058004E2087 /* Geometry EscapeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF153351A60C058004E2087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF153501A60C058004E2087 /* LaunchScreen.xib in Resources */,
+				DBF1534D1A60C058004E2087 /* Images.xcassets in Resources */,
+				DBF153451A60C058004E2087 /* GameScene.sks in Resources */,
+				DBF1534B1A60C058004E2087 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF153531A60C058004E2087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF153331A60C058004E2087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF153481A60C058004E2087 /* GameViewController.m in Sources */,
+				DBF153401A60C058004E2087 /* AppDelegate.m in Sources */,
+				DBF153431A60C058004E2087 /* GameScene.m in Sources */,
+				DBF1533D1A60C058004E2087 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF153511A60C058004E2087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF1535C1A60C058004E2087 /* Geometry_EscapeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF153571A60C058004E2087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF153361A60C058004E2087 /* Geometry Escape */;
+			targetProxy = DBF153561A60C058004E2087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBF153491A60C058004E2087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF1534A1A60C058004E2087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBF1534E1A60C058004E2087 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF1534F1A60C058004E2087 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF1535D1A60C058004E2087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBF1535E1A60C058004E2087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF153601A60C058004E2087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Geometry Escape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF153611A60C058004E2087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Geometry Escape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBF153631A60C058004E2087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Geometry EscapeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geometry Escape.app/Geometry Escape";
+			};
+			name = Debug;
+		};
+		DBF153641A60C058004E2087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Geometry EscapeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geometry Escape.app/Geometry Escape";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF153321A60C058004E2087 /* Build configuration list for PBXProject "Geometry Escape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF1535D1A60C058004E2087 /* Debug */,
+				DBF1535E1A60C058004E2087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF1535F1A60C058004E2087 /* Build configuration list for PBXNativeTarget "Geometry Escape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF153601A60C058004E2087 /* Debug */,
+				DBF153611A60C058004E2087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF153621A60C058004E2087 /* Build configuration list for PBXNativeTarget "Geometry EscapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF153631A60C058004E2087 /* Debug */,
+				DBF153641A60C058004E2087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF1532F1A60C058004E2087 /* Project object */;
+}
