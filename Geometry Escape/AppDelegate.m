@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  Geometry Escape
+//  AvoidTheSquares - iOS
 //
-//  Created by Lee Warren on 10/01/2015.
-//  Copyright (c) 2015 Lee Warren. All rights reserved.
+//  Created by Lee Warren on 3/12/2014.
+//  Copyright (c) 2014 Lee Warren. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <GameKit/GameKit.h>
 
 @interface AppDelegate ()
 
@@ -36,6 +37,15 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    //gamecenter stuff
+    [[GKLocalPlayer localPlayer] authenticateWithCompletionHandler:^(NSError *error) {
+        if (error == nil) {
+            NSLog(@"Authentication Successful");
+        } else {
+            NSLog(@"Authentication Failed");
+        }
+    }];
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
